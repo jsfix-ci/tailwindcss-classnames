@@ -1,14 +1,14 @@
 {
-  "name": "tailwindcss-classnames",
+  "name": "tailwindcss-clsx",
   "version": "2.0.5",
-  "description": "Functional typed classnames for TailwindCSS",
+  "description": "Functional typed clsx for TailwindCSS",
   "author": "Christian Alfoni <christianalfoni@gmail.com>",
   "contributors": [
     "Muhammad Sammy <themsammy@outlook.com>",
     "Christian Alfoni <christianalfoni@gmail.com>"
   ],
   "license": "MIT",
-  "repository": "git+https://github.com/muhammadsammy/tailwindcss-classnames.git",
+  "repository": "git+https://github.com/gpfunk/tailwindcss-classnames.git",
   "main": "lib/index.js",
   "bin": {
     "tailwindcss-classnames": "lib/cli/index.js"
@@ -47,7 +47,8 @@
     "typescript",
     "tailwindcss",
     "tailwind",
-    "classnames"
+    "classnames",
+    "clsx"
   ],
   "files": [
     "lib",
@@ -55,7 +56,7 @@
     "dist"
   ],
   "dependencies": {
-    "classnames": "^2.2.6",
+    "clsx": "^1.1.1",
     "colors": "^1.4.0",
     "commander": "^7.0.0",
     "inquirer": "^7.1.0",
@@ -65,7 +66,6 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@types/classnames": "^2.2.11",
     "@types/inquirer": "^7.3.1",
     "@types/jest": "^26.0.20",
     "@types/lodash": "^4.14.168",
