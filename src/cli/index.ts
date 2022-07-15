@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-import commander from 'commander';
+import { program as commander } from 'commander';
 import inquirer from 'inquirer';
 import colors from 'colors';
 import fs from 'fs';
